@@ -1,0 +1,23 @@
+*{
+    padding: 0!important;
+    margin: 0 !important;
+}
+
+body{
+    background-image: url('/images/calendar.png');
+    background-repeat: no-repeat;
+    background-position: 5% 100px;
+}
+
+#root{
+    background-color: rgba(178, 189, 192, 0.85);
+    width: 100%;
+    margin: 0 !important;
+    height: 100%;
+}
+
+#col {
+    background-color: #cd787d;
+    border-radius: 5px;
+    padding: 10px;
+}

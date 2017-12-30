@@ -17,7 +17,22 @@ body{
 }
 
 #col {
-    background-color: #cd787d;
+    background-color: rgba(205, 120, 125, 0.46);
     border-radius: 5px;
     padding: 10px;
+}
+
+.text span{
+    font-family: Georgia;
+    text-transform: uppercase;
+    color: #040505;
+    text-decoration: underline;
+}
+
+.fa {
+    /*color: #9fcdff;*/
+}
+
+#tweet, #user {
+    font-family: Trattatello, "Trebuchet MS";
 }

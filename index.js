@@ -7,8 +7,10 @@ $(document).ready(() => {
 
     worker.addEventListener('message', (e) => {
         let data = e.data;
+        $('#tweet').html(data.tweet);
+        $('#user').html(' - ' + data.user);
     });
 
-    worker.postMessage('tweets');
+    worker.postMessage('danny');
 
 });

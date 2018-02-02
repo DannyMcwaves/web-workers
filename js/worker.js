@@ -33,5 +33,5 @@ self.addEventListener('message', (e) => {
         "use strict";
         i = (i+1) % twits.length;
         postMessage(Tweets[twits[i]]);
-    }, 10000);
+    }, 20000);
 });
